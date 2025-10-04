@@ -1,0 +1,31 @@
+{
+  "name": "Smoothies #1500",
+  "description": "4 ur helth. stay smooth.",
+  "image": "https://img_smoothies.arweave.net/1500.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Dark"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Half Open"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gum Smile"
+    },
+    {
+      "trait_type": "Hands",
+      "value": "Smooth Hands"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Sweatband"
+    }
+  ]
+}

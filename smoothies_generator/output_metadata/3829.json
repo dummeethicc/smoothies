@@ -1,0 +1,31 @@
+{
+  "name": "Smoothies #3829",
+  "description": "4 ur helth. stay smooth.",
+  "image": "https://img_smoothies.arweave.net/3829.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Reading Glasses"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fu Manchu"
+    },
+    {
+      "trait_type": "Hands",
+      "value": "Smooth Criminal"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Curls"
+    }
+  ]
+}

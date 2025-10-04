@@ -1,0 +1,247 @@
+.mint-page {
+  width: 100%;
+  background: #c0c0c0;
+  padding: 10px;
+}
+
+.info-box {
+  background: #c0c0c0;
+  padding: 10px;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  margin-bottom: 10px;
+  font-family: 'VT323', monospace;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.info-row:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  color: #000;
+}
+
+.value {
+  font-weight: normal;
+  color: #000;
+}
+
+.game-info {
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.game-info h3 {
+  font-size: 18px;
+  color: #000;
+  margin: 0 0 10px 0;
+  font-weight: normal;
+}
+
+.game-info ul {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.choice-section label {
+  display: block;
+  margin-bottom: 8px;
+  color: #000;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.choice-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.choice-btn {
+  padding: 20px;
+  border: 3px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  background: #c0c0c0;
+  cursor: pointer;
+  transition: none;
+  text-align: center;
+  font-family: 'VT323', monospace;
+}
+
+.choice-btn:hover:not(:disabled) {
+  background: #d4d0c8;
+}
+
+.choice-btn:active:not(:disabled) {
+  border-color: #808080 #ffffff #ffffff #808080;
+}
+
+.choice-btn.selected {
+  border-color: #808080 #ffffff #ffffff #808080;
+  background: #a0a0a0;
+}
+
+.choice-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: #808080;
+}
+
+.choice-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.choice-title {
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.choice-desc {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.4;
+}
+
+.mint-btn {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  background: #c0c0c0;
+  color: #000;
+  font-family: 'VT323', monospace;
+}
+
+.mint-btn:hover:not(:disabled) {
+  background: #d4d0c8;
+}
+
+.mint-btn:active:not(:disabled) {
+  border-color: #808080 #ffffff #ffffff #808080;
+}
+
+.mint-btn:disabled {
+  background: #c0c0c0;
+  cursor: not-allowed;
+  color: #808080;
+}
+
+.status {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  color: #000;
+  font-size: 14px;
+}
+
+.result-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.result-content {
+  background: #c0c0c0;
+  border: 3px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+  font-family: 'VT323', monospace;
+}
+
+.result-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 24px;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.choices-display {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.choice-result {
+  text-align: center;
+}
+
+.choice-result-icon {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.choice-result-label {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+}
+
+.vs {
+  font-size: 24px;
+  color: #000;
+}
+
+.result-desc {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.close-result {
+  background: #c0c0c0;
+  color: #000;
+  border: 3px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 8px 30px;
+  cursor: pointer;
+  font-weight: normal;
+  font-family: 'VT323', monospace;
+  font-size: 16px;
+}
+
+.close-result:hover {
+  background: #d4d0c8;
+}
+
+.close-result:active {
+  border-color: #808080 #ffffff #ffffff #808080;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Smoothies #4459",
+  "description": "4 ur helth. stay smooth.",
+  "image": "https://img_smoothies.arweave.net/4459.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dolla"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Pucker"
+    },
+    {
+      "trait_type": "Hands",
+      "value": "Smooth Criminal"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Wizard Hat"
+    }
+  ]
+}

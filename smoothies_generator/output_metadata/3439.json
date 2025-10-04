@@ -1,0 +1,31 @@
+{
+  "name": "Smoothies #3439",
+  "description": "4 ur helth. stay smooth.",
+  "image": "https://img_smoothies.arweave.net/3439.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Dark"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Goggs"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Buck"
+    },
+    {
+      "trait_type": "Hands",
+      "value": "No Hands"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Pigtails"
+    }
+  ]
+}

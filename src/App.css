@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.app {
+  min-height: 100vh;
+  background: #008080;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;
+}
+
+.container {
+  background: #c0c0c0;
+  border: 3px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 3px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+}
+
+.header {
+  background: linear-gradient(90deg, #000080, #1084d0);
+  padding: 3px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  color: white;
+  font-size: 16px;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 0;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.welcome {
+  background: #c0c0c0;
+  padding: 20px;
+  border: 2px solid;
+  border-color: #808080 #ffffff #ffffff #808080;
+  margin: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.description {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.6;
+}

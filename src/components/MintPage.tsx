@@ -44,7 +44,7 @@ export default function MintPage() {
       const contract = new ethers.Contract(
         CONTRACT_ADDRESS,
         CONTRACT_ABI,
-        new ethers.providers.JsonRpcProvider('https://rpc.hyperliquid-testnet.xyz/evm')
+        new ethers.providers.JsonRpcProvider('https://rpc.hyperliquid.xyz/evm')
       )
 
       const [price, supply, max, userMinted, enabled] = await Promise.all([
@@ -169,7 +169,7 @@ export default function MintPage() {
         </div>
         <div className="info-row">
           <span className="label">Remaining Supply:</span>
-          <span className="value">{remaining} / 40</span>
+          <span className="value">{remaining} / 1800</span>
         </div>
         <div className="info-row">
           <span className="label">Your Minted:</span>

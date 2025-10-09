@@ -1,4 +1,4 @@
-export const CONTRACT_ADDRESS = "0x676c13F6637Af30Bca540F06e42D29d43Fd220C5";
+export const CONTRACT_ADDRESS = "0x39E67A6455318d526Fe30b513fc49F85f3e81681";
 
 export const CONTRACT_ABI = [
   "function mint(uint8 playerChoice) public payable",
@@ -14,10 +14,10 @@ export const CONTRACT_ABI = [
   "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)"
 ] as const;
 
-export const HYPERLIQUID_TESTNET = {
-  id: 998,
-  name: 'HyperEVM Testnet',
-  network: 'hyperliquid-testnet',
+export const HYPERLIQUID_MAINNET = {
+  id: 999,
+  name: 'HyperEVM',
+  network: 'hyperliquid',
   nativeCurrency: {
     decimals: 18,
     name: 'HYPE',
@@ -25,17 +25,17 @@ export const HYPERLIQUID_TESTNET = {
   },
   rpcUrls: {
     default: {
-      http: ['https://rpc.hyperliquid-testnet.xyz/evm'],
+      http: ['https://rpc.hyperliquid.xyz/evm'],
     },
     public: {
-      http: ['https://rpc.hyperliquid-testnet.xyz/evm'],
+      http: ['https://rpc.hyperliquid.xyz/evm'],
     },
   },
   blockExplorers: {
     default: { 
       name: 'HyperEVM Explorer', 
-      url: 'https://explorer.hyperliquid-testnet.xyz' 
+      url: 'https://explorer.hyperliquid.xyz'
     },
   },
-  testnet: true,
+  testnet: false,
 };
